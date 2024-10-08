@@ -17,6 +17,7 @@ build
 # Docker files
 Dockerfile
 docker-compose.yml
+compose.yml
 
 # Logs
 *.log
