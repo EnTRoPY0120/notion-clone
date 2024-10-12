@@ -7,4 +7,5 @@ COPY package*.json ./
 
 RUN npm install
 
-ARG 
+ARG NEXT_PUBLIC_URL_LINK \
+    
