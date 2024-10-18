@@ -1,5 +1,5 @@
 # Build stage
-FROM node:20 AS builder
+FROM node:20 AS builder 
 
 WORKDIR /app
 
@@ -14,3 +14,5 @@ ARG NEXT_PUBLIC_URL_LINK \
     EDGE_STORE_SECRET_KEY 
 
 COPY . .
+
+RUN npm run build
