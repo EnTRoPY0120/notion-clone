@@ -16,3 +16,6 @@ ARG NEXT_PUBLIC_URL_LINK \
 COPY . .
 
 RUN npm run build
+
+
+FROM node:current-alpine3.20 AS production
