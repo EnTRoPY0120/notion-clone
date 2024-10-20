@@ -17,5 +17,5 @@ COPY . .
 
 RUN npm run build
 
-
+# Production stage 
 FROM node:current-alpine3.20 AS production
