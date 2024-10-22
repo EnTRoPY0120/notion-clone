@@ -22,3 +22,4 @@ FROM node:current-alpine3.20 AS production
 
 WORKDIR /app
 
+COPY --from=builder 
