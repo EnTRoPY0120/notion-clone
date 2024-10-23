@@ -22,4 +22,4 @@ FROM node:current-alpine3.20 AS production
 
 WORKDIR /app
 
-COPY --from=builder 
+COPY --from=builder /app/next.config.js ./
