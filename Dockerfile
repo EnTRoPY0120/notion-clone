@@ -23,3 +23,4 @@ FROM node:current-alpine3.20 AS production
 WORKDIR /app
 
 COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/public ./public
