@@ -1,23 +1,9 @@
-# Node modules
+Dockerfile
+.dockerignore
 node_modules
 npm-debug.log
-yarn-error.log
-
-# Build output
+README.md
 .next
-build
-
-# Environment files
-.env*
-
-# Git files
+!.next/static
+!.next/standalone
 .git
-.gitignore
-
-# Docker files
-Dockerfile
-docker-compose.yml
-compose.yml
-
-# Logs
-*.log
